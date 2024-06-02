@@ -1,0 +1,20 @@
+1, emp201, Vijay, Gupta, Software Engineer, ONBOARD, 1-11-2022, 10-10-2022, “Vijay is going to join DataOrb on 1st November as a SE.”
+2, emp202, Sumit, Jobs, Architect, ONBOARD, 1-10-2022, 10-11-2022, “Sumit Jobs joined DataOrb on 1st October as an Architect.”
+3, emp203, Mark, Fowler, Software Engineer, ONBOARD, 15-10-2022, 10-11-2022, “Mark has joined DataOrb as a SE.”
+4, emp202, SALARY, 3000, 14-10-2022, “Oct Salary"
+5, emp202, BOUNS, 50, 10-10-2022, “Bouns of Steve.”
+6, emp201, BOUNS, 3300, 10-10-2022, “Bouns of Bill”
+7, emp203, SALARY, 34000, 10-10-2022, “Nov Salary of Steve.”
+8, emp201, REIMBURSEMENT, 303, 10-11-2022, “Nov Travelling.”
+9, emp203, REIMBURSEMENT, 330, 10-11-2022, “Nov Travelling.”
+10, emp202, EXIT, 1-12-2022, 10-11-2022, “Exit Steve.”
+11, emp204, Bret, Gates, Software Engineer, ONBOARD, 1-11-2022, 10-11-2022, “Bret Gates is going to join DataOrb on 1st November as a SE.”
+12, emp205, Sara, Jobs, Architect, ONBOARD, 1-10-2022, 10-10-2022, “Sara Jobs joined DataOrb on 1st October as an Architect.”
+13, emp206, Markus, Fowler, Software Engineer, ONBOARD, 15-10-2022, 10-11-2022, “Markus has joined DataOrb as a SE.”
+14, emp206, SALARY, 3000, 10-11-2022, “Oct Salary of Steve.”
+15, emp204, BOUNS, 50, 10-10-2022, “Bouns of Steve.”
+16, emp205, BOUNS, 3300, 10-11-2022, “Bouns of Bill”
+17, emp204, SALARY, 34000, 10-10-2022, “Nov Salary of Steve.”
+18, emp201, REIMBURSEMENT, 303, 10-11-2022, “Nov Travelling.”
+19, emp206, REIMBURSEMENT, 330, 10-11-2022, “Nov Travelling.”
+20, emp206, EXIT, 1-12-2022, 10-11-2022, “Exit markus”

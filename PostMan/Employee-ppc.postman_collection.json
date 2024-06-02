@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "36cfa6a0-6f7c-4517-80ed-8b03207f2138",
+		"name": "Employee-ppc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14301102"
+	},
+	"item": [
+		{
+			"name": "GetEmployeeByOrgnisation_Q1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/org/3/employees",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"org",
+						"3",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddNewOrgnisation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/org/Org2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"org",
+						"Org2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOnboardExitDataMonthWise",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/employee/?orgID=5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						""
+					],
+					"query": [
+						{
+							"key": "orgID",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fileUpload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/E:/Spring/Java/Input Data/Org2.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/file/upload",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"file",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMonthlySalaryDetail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/employee/monthlySalary?orgID=5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"monthlySalary"
+					],
+					"query": [
+						{
+							"key": "orgID",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMonthlyTotalEarningDetail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/employee/monthlyTotalAmount?orgID=3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"monthlyTotalAmount"
+					],
+					"query": [
+						{
+							"key": "orgID",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetEmployeeFinancialReport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/employee/earning?orgID=5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"earning"
+					],
+					"query": [
+						{
+							"key": "orgID",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EventFinancialReport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/employee/eventDetails?orgID=3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"eventDetails"
+					],
+					"query": [
+						{
+							"key": "orgID",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
